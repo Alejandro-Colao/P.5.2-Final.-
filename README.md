@@ -7,16 +7,18 @@ Proyecto final de la home corporativa para la empresa de marketing **Nexus Agenc
 ## Capturas de la Home
 
 ### Modo Claro
-*(Nota del desarrollador: Aquí el estudiante debe incrustar sus propias capturas locales)*
+(./docs/screenshots/modo-claro.png)
 
 ### Modo Oscuro
-*(Nota del desarrollador: Aquí el estudiante debe incrustar sus propias capturas locales)*
+(./docs/screenshots/modo-oscuro.png)
 
 ## Sistema de Diseño
 
 Se ha seguido un sistema de diseño consistente:
 
 **Paleta de colores**
+
+(./docs/screenshots/design-system.png)
 
 Establece los colores principales de la marca. Incluye:
 
