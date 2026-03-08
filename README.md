@@ -63,7 +63,7 @@ Incluye estructuras base para organizar contenido:
 - **Colores:** Se utilizan variables de tema a través de Tailwind CSS (`bg-background`, `text-foreground`, colores primarios e inversos). 
 - **Tipografía:** Se estableció un jerarquizado directo mediante pesos variados en fuentes de sistema sin-serif con un buen espaciado clásico (`tracking-tight`).
 - **Componentes base:** Creación modular de componentes mínimos como `<Button />`, `<Card />` o `<Input />` utilizando `forwardRef` para respetar el patrón de diseño estandarizado sin incluir librerías prohibidas como Shadcn o MUI.
-- Puedes encontrar una explicación mayor y los colores exactos en el [PDF del Design System](./src/assets/Design_System.pdf).
+- Puedes los colores exactos en el [PDF del Design System](./src/assets/Design_System.pdf).
 
 ## Instrucciones para levantar el proyecto
 
