@@ -1,0 +1,162 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * ============================================
+ * 🎨 DESIGN SYSTEM — Nexus Agency
+ * ============================================
+ * Fonts:  Outfit (headings) + DM Sans (body)
+ * Style:  Moderno y minimalista
+ * ============================================
+ */
+
+@layer base {
+  :root {
+    /* ── Primary: Deep Indigo ── */
+    --primary: 234 80% 30%;
+    --primary-foreground: 0 0% 100%;
+    
+    --primary-50: 234 100% 97%;
+    --primary-100: 234 94% 94%;
+    --primary-200: 234 91% 88%;
+    --primary-300: 234 88% 80%;
+    --primary-400: 234 86% 70%;
+    --primary-500: 234 80% 60%;
+    --primary-600: 234 80% 50%;
+    --primary-700: 234 75% 45%;
+    --primary-800: 234 70% 35%;
+    --primary-900: 234 65% 25%;
+
+    /* ── Secondary: Warm Stone ── */
+    --secondary: 30 15% 93%;
+    --secondary-foreground: 234 40% 16%;
+
+    /* ── Accent: Vibrant Coral ── */
+    --accent: 12 90% 58%;
+    --accent-foreground: 0 0% 100%;
+
+    /* ── Neutrals (Extended Slate) ── */
+    --neutral-50: 210 40% 98%;
+    --neutral-100: 210 40% 96%;
+    --neutral-200: 214 32% 91%;
+    --neutral-300: 213 27% 84%;
+    --neutral-400: 215 20% 65%;
+    --neutral-500: 215 16% 47%;
+    --neutral-600: 215 19% 35%;
+    --neutral-700: 215 25% 27%;
+    --neutral-800: 217 33% 17%;
+    --neutral-900: 222 47% 11%;
+
+    --background: 30 20% 99%;
+    --foreground: 222 47% 11%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 16% 47%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 234 80% 30%;
+
+    --radius: 0.625rem;
+  }
+
+  .dark {
+    /* ── Primary: Lighter Indigo ── */
+    --primary: 234 70% 65%;
+    --primary-foreground: 234 40% 8%;
+
+    --primary-50: 234 65% 25%;
+    --primary-100: 234 70% 35%;
+    --primary-200: 234 75% 45%;
+    --primary-300: 234 80% 50%;
+    --primary-400: 234 80% 60%;
+    --primary-500: 234 86% 70%;
+    --primary-600: 234 88% 80%;
+    --primary-700: 234 91% 88%;
+    --primary-800: 234 94% 94%;
+    --primary-900: 234 100% 97%;
+
+    /* ── Secondary ── */
+    --secondary: 222 47% 11%;
+    --secondary-foreground: 210 40% 98%;
+
+    /* ── Accent: Coral (adjusted for dark) ── */
+    --accent: 12 85% 62%;
+    --accent-foreground: 0 0% 100%;
+
+    /* ── Neutrals ── */
+    --background: 222 47% 8%;
+    --foreground: 210 40% 98%;
+
+    --card: 222 47% 11%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222 47% 11%;
+    --popover-foreground: 210 40% 98%;
+
+    --muted: 217 33% 17%;
+    --muted-foreground: 215 20% 65%;
+
+    --destructive: 0 62% 40%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 217 33% 17%;
+    --input: 217 33% 17%;
+    --ring: 234 70% 65%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    font-family: "DM Sans", system-ui, sans-serif;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased transition-colors duration-300;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Outfit", system-ui, sans-serif;
+    @apply font-bold tracking-tight text-foreground;
+  }
+
+  h1 { @apply text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-[1.08] mb-6; }
+  h2 { @apply text-3xl sm:text-4xl leading-tight mb-4; }
+  h3 { @apply text-2xl sm:text-3xl leading-snug mb-3; }
+  h4 { @apply text-xl sm:text-2xl leading-snug mb-2; }
+  
+  p { @apply text-base leading-relaxed mb-4 text-foreground/80; }
+  small { @apply text-xs text-muted-foreground; }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center rounded-md text-sm font-medium transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 px-6 py-3 hover:-translate-y-0.5 active:translate-y-0;
+  }
+  
+  .btn-primary {
+    @apply bg-primary text-primary-foreground shadow-lg shadow-primary/20 hover:bg-primary/90;
+  }
+  
+  .btn-secondary {
+    @apply bg-secondary text-secondary-foreground shadow-sm hover:bg-secondary/80;
+  }
+  
+  .section-container {
+    @apply container max-w-7xl mx-auto px-6 py-12 md:py-24;
+  }
+}
