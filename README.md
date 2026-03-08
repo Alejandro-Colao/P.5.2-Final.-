@@ -16,7 +16,8 @@ Proyecto final de la home corporativa para la empresa de marketing **Nexus Agenc
 
 Se ha seguido un sistema de diseño consistente:
 
-1. Paleta de colores
+**Paleta de colores**
+
 Establece los colores principales de la marca. Incluye:
 
 - Primary (#0F1C8A): color principal usado en elementos importantes como botones o enlaces.
@@ -29,23 +30,26 @@ Establece los colores principales de la marca. Incluye:
 
 - También incluye variaciones (50–900) del color primario y neutro para crear jerarquía visual, fondos y estados.
 
-2. Tipografías
+**Tipografías**
+
 Define las fuentes y tamaños para mantener coherencia:
 
 - Outfit para encabezados (H1, H2, H3).
 
 - DM Sans para texto de contenido y texto pequeño.
 
-Esto ayuda a crear una jerarquía clara de información.
+- Esto ayuda a crear una jerarquía clara de información.
 
-3. Botones
+**Botones**
+
 Se especifican estilos de botones reutilizables:
 
 - Primary Button: para la acción principal.
 
 - Secondary Button: para acciones secundarias.
 
-4. Contenedores y componentes
+**Contenedores y componentes**
+
 Incluye estructuras base para organizar contenido:
 
 - Standard Section: contenedor principal de secciones.
