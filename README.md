@@ -8,11 +8,9 @@ Proyecto final para la asignatura que comprende el desarrollo front-end de la ho
 
 ### Modo Claro
 *(Nota del desarrollador: Aquí el estudiante debe incrustar sus propias capturas locales)*
-![Modo Claro](./src/assets/imagenes/diseño-web.png)
 
 ### Modo Oscuro
 *(Nota del desarrollador: Aquí el estudiante debe incrustar sus propias capturas locales)*
-![Modo Oscuro](./src/assets/imagenes/equipo-trabajando.png)
 
 ## Sistema de Diseño
 
